@@ -6,6 +6,7 @@ Release:	2
 License:	GPL
 Group:		X11/Graphics
 Source0:	ftp://wolfpack.twu.net/users/wolfpack/%{name}-%{version}.tar.bz2
+URL:		http://wolfpack.twu.net/Vertex/
 BuildRequires:	gtkglarea1-devel
 BuildRequires:	imlib-devel
 BuildRequires:	libstdc++-devel
