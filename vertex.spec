@@ -1,13 +1,12 @@
 Summary:	Vertex - polygon based modeller
 Summary(pl):	Vertex - modeler oparty o wielok±ty
 Name:		vertex
-Version:	0.1.14
-Release:	2
+Version:	0.1.15
+Release:	1
 License:	GPL
 Group:		X11/Graphics
 Source0:	ftp://wolfpack.twu.net/users/wolfpack/%{name}-%{version}.tar.bz2
-# Source0-md5:	6ea0f01bfa480f49ba08637a124fbd1f
-Patch0:		%{name}-fix_multi_line.patch
+# Source0-md5:	e80af417866d38791d78e41c8302fe0c
 URL:		http://wolfpack.twu.net/Vertex/
 BuildRequires:	gtkglarea1-devel
 BuildRequires:	imlib-devel
@@ -30,7 +29,6 @@ u¿yciem OpenGL.
 
 %prep
 %setup -q
-%patch -p0
 
 %build
 ./configure Linux
