@@ -32,7 +32,9 @@ u¿yciem OpenGL.
 
 %build
 ./configure Linux
-%{__make} CC=%{__cc} CXX=%{__cxx}
+%{__make} \
+	CC="%{__cc}"\
+	CXX="%{__cxx}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
