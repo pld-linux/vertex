@@ -11,7 +11,7 @@ URL:		http://wolfpack.twu.net/Vertex/
 BuildRequires:	gtkglarea1-devel
 BuildRequires:	imlib-devel
 BuildRequires:	libstdc++-devel
-Buildroot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_noautoreqdep	libGL.so.1 libGLU.so.1
 
