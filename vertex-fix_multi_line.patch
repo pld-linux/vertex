@@ -1,0 +1,22 @@
+--- vertex/messages.h~	2003-04-30 01:45:22.000000000 +0200
++++ vertex/messages.h	2004-01-12 00:51:01.000000000 +0100
+@@ -22,7 +22,7 @@
+ \n\
+     [file] is the V3D model file to load on startup.\n\
+ \n\
+-    [options] can be any of the following:
++    [options] can be any of the following:\n\
+ \n\
+         --rcfile <file>         Load configuration from <file>.\n\
+         --config_file <file>    Same as --rcfile.\n\
+--- vertex/makefile_append.ini~	2003-04-30 01:45:23.000000000 +0200
++++ vertex/makefile_append.ini	2004-01-12 00:46:29.000000000 +0100
+@@ -20,7 +20,7 @@
+ EXPORT_COMPILETIMEINFO_H = echo -n -e "\
+ \#ifndef COMPILETIMEINFO_H\n\
+ \#define COMPILETIMEINFO_H\n\
+-\#define COMPILE_COMPILER\t\"`$(CPP) --version`\"\n\
++\#define COMPILE_COMPILER\t\"`$(CPP) --version | tr '\n' ' '`\"\n\
+ \#define COMPILE_USER\t\t\"$(USER)\"\n\
+ \#define COMPILE_LOCATION\t\"`uname -n`\"\n\
+ \#define COMPILE_DATE\t\t`date +\"%s\"`\n\
