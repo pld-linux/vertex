@@ -1,5 +1,5 @@
 Summary:	Vertex - polygon based modeller
-Summary(pl):	Vertex - modeler oparty o wielok±ty
+Summary(pl.UTF-8):   Vertex - modeler oparty o wielokÄ…ty
 Name:		vertex
 Version:	0.1.15
 Release:	1
@@ -21,11 +21,11 @@ efficient 3D objects for games and other live-end requirements. It
 uses the V3D object model format to maximize efficiency with OpenGL
 rendering.
 
-%description -l pl
-Vertex to modeler oparty o wielok±ty, którego celem jest tworzenie
-wydajnych obiektów 3D do gier i innych zastosowañ. U¿ywa formatu
-modeli obiektów V3D, aby uzyskaæ najwiêksz± wydajno¶æ renderowania z
-u¿yciem OpenGL.
+%description -l pl.UTF-8
+Vertex to modeler oparty o wielokÄ…ty, ktÃ³rego celem jest tworzenie
+wydajnych obiektÃ³w 3D do gier i innych zastosowaÅ„. UÅ¼ywa formatu
+modeli obiektÃ³w V3D, aby uzyskaÄ‡ najwiÄ™kszÄ… wydajnoÅ›Ä‡ renderowania z
+uÅ¼yciem OpenGL.
 
 %prep
 %setup -q
