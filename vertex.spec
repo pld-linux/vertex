@@ -1,5 +1,5 @@
 Summary:	Vertex - polygon based modeller
-Summary(pl.UTF-8):   Vertex - modeler oparty o wielokąty
+Summary(pl.UTF-8):	Vertex - modeler oparty o wielokąty
 Name:		vertex
 Version:	0.1.15
 Release:	1
